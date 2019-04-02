@@ -1,0 +1,6 @@
+<div *ngIf="alert" class="alert {{alertSeverity}}" role="alert">
+  {{alertMessage}}
+  <button type="button" class="close" (click)="alert = false">
+    <span>&times;</span>
+  </button>
+</div>

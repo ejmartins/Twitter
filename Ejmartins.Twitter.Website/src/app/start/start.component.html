@@ -1,0 +1,25 @@
+
+<div class="container main-center">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="card text-center shadow bg-white rounded">
+                <div class="card-body">
+                    <h5 class="card-title">Como deseja se conectar?</h5>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button [routerLink]="['../administrador/login']" class="btn btn-primary btn-block">Administrador</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button [routerLink]="['../recursos-humanos/login']" class="btn btn-primary btn-block">RH</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button [routerLink]="['../profissional/login']" class="btn btn-primary btn-block">Profissional</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

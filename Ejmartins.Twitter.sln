@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejmartins.Twitter.Domain", "Ejmartins.Twitter.Domain\Ejmartins.Twitter.Domain.csproj", "{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejmartins.Twitter.Data", "Ejmartins.Twitter.Data\Ejmartins.Twitter.Data.csproj", "{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejmartins.Twitter.Application", "Ejmartins.Twitter.Application\Ejmartins.Twitter.Application.csproj", "{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejmartins.Twitter.Globalization", "Ejmartins.Twitter.Globalization\Ejmartins.Twitter.Globalization.csproj", "{3E373216-3D8E-410D-A46D-04A0C84D1C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejmartins.Twitter.API", "Ejmartins.Twitter.API\Ejmartins.Twitter.API.csproj", "{71D01EDB-2551-41EA-9C02-FE89F257C5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejmartins.Twitter.Servico", "Ejmartins.Twitter.Servico\Ejmartins.Twitter.Servico.csproj", "{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejmartins.Twitter.Infra", "Ejmartins.Twitter.Infra\Ejmartins.Twitter.Infra.csproj", "{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ejmartins.Twitter.Website", "Ejmartins.Twitter.Website\", "{46772497-FA68-48AE-8A12-2701016078CE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61302"
+		Debug.AspNetCompiler.PhysicalPath = "Ejmartins.Twitter.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61302\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61302"
+		Release.AspNetCompiler.PhysicalPath = "Ejmartins.Twitter.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61302\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61302"
+		SlnRelativePath = "Ejmartins.Twitter.Website\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejmartins.Twitter.ETL", "Ejmartins.Twitter.ETL\Ejmartins.Twitter.ETL.csproj", "{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Luminus_Cloud|Any CPU = Debug_Luminus_Cloud|Any CPU
+		Debug_MaxiShopping|Any CPU = Debug_MaxiShopping|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FC5E7B-0B6F-4A6A-BCA7-242CDDF92A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA485FD5-DB44-4DB4-8FC5-4BE9BF64E6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F30B0F-BB84-40D2-936C-E7F54D8F1D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E373216-3D8E-410D-A46D-04A0C84D1C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F0CA6E-B0CA-4E85-BC27-419E3ADC3A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD9E5E5-8917-473C-B30E-B10A9E56D8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{46772497-FA68-48AE-8A12-2701016078CE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug_Luminus_Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug_Luminus_Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug_MaxiShopping|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug_MaxiShopping|Any CPU.Build.0 = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3FC51D-7D5E-49F5-AEDE-FE7C95BB8372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A787BB6E-5315-48EF-9091-9C2BFE82723E}
+	EndGlobalSection
+EndGlobal

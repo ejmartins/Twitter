@@ -1,0 +1,31 @@
+<div *ngIf="error" class="alert alert-danger" role="alert">
+    Ocorreu um erro na chamada da API
+</div>
+<div class="card w-75 main-center shadow rounded">
+    <div class="card-header">
+        Top 5 - Usuários
+    </div>
+    <div class="card-body">
+        <table class="table table-hover table-sm">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Qtd Seguidores</th>
+                </tr>
+            </thead>
+            <tbody *ngIf="registros?.length > 0">
+                <tr *ngFor="let r of registros">
+                    <td></td>
+                    <td>{{r.Nome}}</td>
+                    <td>{{r.Seguidores}}</td>
+                </tr>
+            </tbody>
+            <tbody *ngIf="!(registros?.length > 0)">
+            <tr>
+                <td colspan="6">Não há registros para exibir.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
